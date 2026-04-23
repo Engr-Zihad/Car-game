@@ -48,7 +48,7 @@
   // Entities
   let obstacles = [], powerups = [], particles = [];
 
-  // Input
+  // Input 0
   const keys = {};
   window.addEventListener('keydown', e => {
     keys[e.key.toLowerCase()] = true;
